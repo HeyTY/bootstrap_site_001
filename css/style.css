@@ -28,7 +28,7 @@ a:active {
 
 h1,
 h2,
-h4,	{
+h4	{
 	font-family: "PT Sans Narrow", Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -59,7 +59,7 @@ p {
 /* NAVIGATION */
 
 .navbar {
-	background-color: #222222 !important;
+	background-color: #03396c !important;
 	text-transform: uppercase;
 	font-family: "PT Sans Narrow", Arial, sans-serif;
 	font-weight: 700;
@@ -72,7 +72,7 @@ p {
 
 .navbar a:hover {
 	opacity: 1;
-	background-color: #111111 !important;
+	background-color: #b3cde0 !important;
 }
 
 /* HEADER */
@@ -106,7 +106,7 @@ p {
 
 .header h1,
 .header p,
-.header button. {
+.header button {
 
 	margin-top: 20px;
 }
@@ -172,7 +172,7 @@ p {
 	font-size: 30px;
 	padding: 25px 20px;
 	border-radius: 50%;
-	background-color: #333333;
+	background-color: #6497b1;
 	color: #fff;
 }
 
@@ -190,7 +190,7 @@ p {
 
 	padding: 50px 0 80px;
 	text-align: center;
-	background-color: #333333;
+	background-color: #011f4b;
 }
 
 .pricing h2, 
@@ -277,7 +277,7 @@ p {
 	padding: 5px;
 	font-size: 17px;
 	border-radius: 50%;
-	background-color: #333333;
+	background-color: #6497b1;
 	color: #fff;
 }
 
@@ -287,7 +287,39 @@ p {
 
 }
 
+/* CLIENTS */
 
+.clients {
+	padding: 50px 0 80px;
+	background-color: #005b96;
+	text-align: center;	
+	color: #fff;
+}
+
+.client h2 {
+	color: #5e5e5e;
+}
+
+.clients p {
+	padding-bottom: 40px;
+}
+
+.clients img {
+	width: 200px;
+	opacity: 0.5;
+	cursor: pointer;
+	margin: 40px 0;
+	transition: all 500ms ease-in-out;
+}
+
+.clients li:hover img {
+	opacity: 1;
+}
+
+#expedia-logo,
+#paypal-logo	{
+	margin-top: 40px;
+}
 
 
 
