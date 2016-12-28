@@ -356,12 +356,12 @@ p {
 	border-radius: 0;
 	width: 100%;
 	font-size: 15px;
-	background-color: #f08080;
+	background-color: #5cb85c;
 	color: #fff;
 }
 
 .contact .btn:hover {
-	background-color: #a85959 !important;
+	background-color: #91cf91!important;
 	color: #fff !important;
 }
 
@@ -398,5 +398,10 @@ p {
 .footer .btn {
 	padding: 10px 5px 10px;
 	margin: -3px 0 0 5px;
+}
+
+.footer .btn:hover {
+	color: #fff !important;
+	background-color: #91cf91!important;
 }
 
